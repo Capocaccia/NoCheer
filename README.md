@@ -14,3 +14,7 @@ To execute tests:
 To run app:
 
 node cheer.js yournamehere othernamesoptional
+
+For help:
+
+node cheers.js help
