@@ -45,11 +45,7 @@ function displayText(letter){
    }else{
     article = 'a'
    }
-   if(article ==='an'){
     console.log('Give me' + ' ' + article + ' ' + letter.toUpperCase() + '!')
-  } else{
-    console.log('Give me' + ' ' + article + '  ' + letter.toUpperCase() + '!')
-  }
    //print the above concatenated string to the command line
 }
 
