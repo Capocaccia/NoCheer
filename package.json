@@ -1,7 +1,7 @@
 {
   "name": "NoCheer",
   "version": "1.0.0",
-  "description": "NodeJS command line program that takes in one or several words and generates a cheerful cheer.",
+  "description": "NodeJS command line program that takes in an input and responds with a cheer.",
   "main": "cheers.js",
   "scripts": {
     "test": "istanbul cover _mocha"
