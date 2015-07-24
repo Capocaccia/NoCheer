@@ -2,9 +2,9 @@
   "name": "NoCheer",
   "version": "1.0.0",
   "description": "NodeJS command line program that takes in one or several words and generates a cheerful cheer.",
-  "main": "index.js",
+  "main": "cheers.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "istanbul cover _mocha"
   },
   "repository": {
     "type": "git",
