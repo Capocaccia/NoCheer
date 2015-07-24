@@ -13,6 +13,9 @@ var help = require('./lib/help');
 // if you are going to access functions from other files you have to require those files
 // so were setting the variable help to the help file
 
+var aoran = "halfnorsemix";
+//going to use this pneumonic device to determine if I need to print a or an
+
 if(words[0] === 'help'){
    //words = the 2nd index of the .argv array so if that index === "help" then execute the help function
   //the help function exists only in help.js but you exported it in the help.js file so it can be accessed here
@@ -37,7 +40,16 @@ words.forEach(function(word){
 })
 
 function displayText(letter){
-  console.log('Give me a' + ' ' + letter.toUpperCase() + '!')
+   if(aoran.indexOf(letter.toLowerCase()) !== -1){
+    article = 'an'
+   }else{
+    article = 'a'
+   }
+   if(article ==='an'){
+    console.log('Give me' + ' ' + article + ' ' + letter.toUpperCase() + '!')
+  } else{
+    console.log('Give me' + ' ' + article + '  ' + letter.toUpperCase() + '!')
+  }
    //print the above concatenated string to the command line
 }
 
