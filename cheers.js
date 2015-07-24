@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 var words = process.argv.slice(2);
-console.log(words)
 // process.argv = An array containing the command line arguments.
 // The first element will be 'node', the second element will be the name of the JavaScript file.
 // The next elements will be any additional command line arguments.
