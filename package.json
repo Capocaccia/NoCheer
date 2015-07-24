@@ -1,0 +1,24 @@
+{
+  "name": "NoCheer",
+  "version": "1.0.0",
+  "description": "NodeJS command line program that takes in one or several words and generates a cheerful cheer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Capocaccia/NoCheer.git"
+  },
+  "author": "Carter Capocaccia <carter.capocaccia@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Capocaccia/NoCheer/issues"
+  },
+  "homepage": "https://github.com/Capocaccia/NoCheer",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "istanbul": "^0.3.17",
+    "mocha": "^2.2.5"
+  }
+}
