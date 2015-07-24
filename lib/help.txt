@@ -1,6 +1,7 @@
 
-Welcome to the NodeJS cheers app!
+Hello!  This is my NodeJS Cheers app!
 If you enter your name, you wil get cheered on!
+(this was a tool for me to work on my NodeJS Skills and testing abilities)
 
 Instructions:
 type: "node cheers.js name"
